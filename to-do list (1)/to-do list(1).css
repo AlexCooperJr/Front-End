@@ -1,0 +1,94 @@
+.complete {
+    text-decoration: line-through;
+    border: 1px solid black;
+    color:black;
+}
+body { 
+    background: rgb(0,0,0);
+    background: radial-gradient(circle,LavenderBlush 0%, DarkSlateBlue 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+#header{
+    text-align:center;
+    font-size: 30px;
+    font-weight: 500;
+}
+li {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    }
+.counter-container{
+text-align: center;
+}
+#todo-container {
+    background: radial-gradient(circle,LightSlateGray 25%, LightSteelBlue 75%);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+#input-button:hover{
+    background-color: dimgray;
+}
+.edit-btn{
+    color:black;
+    background-color:orange;
+    cursor:pointer;
+    float:right;
+    padding: 2px 5px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.edit-btn:hover{
+    background-color: #c75200;
+}
+.delete-btn{
+    color:black;
+    background-color:red;
+    cursor:pointer;
+    float:right;
+    padding: 2px 3px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.delete-btn:hover{
+   background-color: darkred;
+}
+h2{
+    text-align:center
+}
+#todo-form{
+    text-align:center;
+}
+ul{
+    text-align: left;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-right:2px;
+    padding:0;
+}
+hr{
+    border-color:black;
+}
+#input-button{
+    font-size: 15px;
+}
+#input-box{
+    width:175px
+}
+#name-button{
+    mix-blend-mode: normal;
+    text-align: left;
+}
+#h2{
+    text-decoration: underline black;
+    font-size: 25px;
+}
