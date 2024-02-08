@@ -42,12 +42,14 @@
     cursor: pointer;
   }
 html{
-    background-image: url("https://tourscanner.com/blog/wp-content/uploads/2021/07/fun-things-to-do-in-Philadelphia.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}     
+    background: url("https://www.centralcitytoyota.com/blogs/120/wp-content/uploads/2017/10/university-city-philadelphia-pennsylvania.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    } 
 main {
-    background-color: rgb(250, 250, 210,80%);
+    background-color: rgba(179, 155, 223, 0.8);
     position: relative;
     border: 2px solid;
     border-radius: 5px;
@@ -63,4 +65,8 @@ main {
   #header{
     font-size: 50px;
   }
+  #submit:hover{
+      background-color:rgba(87, 87, 87, 0.8);
+  }
+  
   
